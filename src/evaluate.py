@@ -4,8 +4,6 @@ import matplotlib.pyplot as plt
 
 def evaluate_model(model, X_test, y_test):
     y_pred = model.predict(X_test)
-
-    # Accuracy
     acc = accuracy_score(y_test, y_pred)
     print(f"Accuracy: {acc:.4f}")
 
