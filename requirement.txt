@@ -5,3 +5,4 @@ joblib
 os
 src
 datetime
+streamlit
